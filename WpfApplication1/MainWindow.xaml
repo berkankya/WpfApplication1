@@ -7,8 +7,18 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
+        <Grid.Background>
+            <LinearGradientBrush>
 
-        <Button Name="btnTikla" Width="100" Height="30" Content="Deneme" Click="btnTikla_Click"/>
+                <GradientStop Color="Violet" Offset="0" />
+                <GradientStop Color="Aqua" Offset="0.5" />
+                <GradientStop Color="Black" Offset="1" />
+
+            </LinearGradientBrush>
+            
+        </Grid.Background>
+
+        <Button Name="btnTikla" Width="100" Height="30" Content="Deneme" Click="btnTikla_Click" Background="#FF00FF73" Foreground="#FF250404" BorderBrush="Black"/>
 
     </Grid>
 </Window>
