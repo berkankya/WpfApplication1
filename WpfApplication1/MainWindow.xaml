@@ -7,6 +7,8 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
-        
+
+        <Button Name="btnTikla" Width="100" Height="30" Content="Deneme" Click="btnTikla_Click"/>
+
     </Grid>
 </Window>
